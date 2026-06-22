@@ -41,3 +41,5 @@ class PasswordChecker:
                         return password_type
                     else:
                         print("Attempt Failed")
+
+login = PasswordChecker()
